@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Empresa"
         mc:Ignorable="d"
-        Title="FuncionarioWindow" Height="450" Width="800">
+        Title="FuncionarioWindow" Height="300" Width="400">
     <Grid>
-        
+
+        <TextBlock HorizontalAlignment="Left" Margin="16,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="ID"/></TextBlock>
+        <TextBox Name="Idtxt" HorizontalAlignment="Left" Height="24" Margin="16,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBlock HorizontalAlignment="Left" Margin="125,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Nome"/></TextBlock>
+        <TextBox Name="Nometxt" HorizontalAlignment="Left" Height="24" Margin="125,37,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" />
+        <TextBlock HorizontalAlignment="Left" Margin="241,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Email"/></TextBlock>
+        <TextBox Name="Emailtxt" HorizontalAlignment="Left" Height="24" Margin="241,37,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+
+        <!---->
+
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="61,74,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="107,74,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Center" Margin="0,74,0,0" VerticalAlignment="Top"/>
+
+
+        <ListBox Name="listFuncionarios" Margin="10,104,10,10"/>
+
     </Grid>
 </Window>

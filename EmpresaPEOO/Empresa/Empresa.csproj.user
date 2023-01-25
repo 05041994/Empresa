@@ -7,7 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Cad-FuncionarioWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Cad-SetorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmpresaWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FuncionarioWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="List-FuncionariosWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="List-SetorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SetorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Cad-FuncionarioWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Cad-SetorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmpresaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FuncionarioWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List-FuncionariosWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List-SetorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SetorWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
