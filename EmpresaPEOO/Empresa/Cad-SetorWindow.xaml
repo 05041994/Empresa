@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Empresa"
         mc:Ignorable="d"
-        Title="Cad_SetorWindow" Height="450" Width="800">
+        Title="Cad_SetorWindow" Height="300" Width="400">
     <Grid>
-        
+
+        <ListBox Name="listSetores" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0" Width="380" Height="111"/>
+        <ListBox Name="listEmpresas" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,134,0,0" Width="380" Height="99"/>
+
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top"/>
+        <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="68,248,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
