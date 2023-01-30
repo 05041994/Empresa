@@ -1,0 +1,11 @@
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Cad-FuncionarioWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Cad-SetorWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\EmpresaWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\FuncionarioWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\List-FuncionariosWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\List-SetorWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\SetorWindow.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Empresa_MarkupCompile.cache
+C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Empresa_MarkupCompile.lref

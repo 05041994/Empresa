@@ -21,5 +21,60 @@ namespace Empresa
         {
             InitializeComponent();
         }
+
+        private void InserirClick(object sender, RoutedEventArgs e)
+        {
+            Empresa p = new Empresa();
+            p.id = int.Parse(Idtxt.Text);
+            p.nome = Nometxt.Text;
+            p.segmento = Segmentotxt.Text;
+
+            NEmpresa.Inserir(p);
+
+            ListarClick(sender, e);
+
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            listEmpresa.ItemsSource = null;
+            listEmpresa.ItemsSource = NEmpresa.Listar();
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+
+            Empresa p = new Empresa();
+            p.id = int.Parse(Idtxt.Text);
+            p.nome = Nometxt.Text;
+            p.segmento = Segmentotxt.Text;
+
+            NEmpresa.Atualizar(p);
+
+            ListarClick(sender, e);
+
+        }
+
+        private void ExcluirClick(object sender, RoutedEventArgs e)
+        {
+            Empresa p = new Empresa();
+            p.id = int.Parse(Idtxt.Text);
+
+            NEmpresa.Excluir(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void listEmpresa_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listEmpresa.SelectedItem != null)
+            {
+                Empresa obj = (Empresa)listEmpresa.SelectedItem;
+
+                Idtxt.Text = obj.id.ToString();
+                Nometxt.Text = obj.nome;
+                Segmentotxt.Text = obj.segmento;
+            }
+        }
     }
 }

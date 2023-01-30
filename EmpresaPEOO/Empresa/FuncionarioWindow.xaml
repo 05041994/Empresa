@@ -17,10 +17,10 @@
 
         <!---->
 
-        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
+        <!--<Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="61,74,0,0" VerticalAlignment="Top"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="107,74,0,0" VerticalAlignment="Top"/>
-        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Center" Margin="0,74,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Center" Margin="0,74,0,0" VerticalAlignment="Top"/>-->
 
 
         <ListBox Name="listFuncionarios" Margin="10,104,10,10"/>

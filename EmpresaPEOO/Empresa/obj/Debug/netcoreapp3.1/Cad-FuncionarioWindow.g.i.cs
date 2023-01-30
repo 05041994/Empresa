@@ -69,7 +69,7 @@ namespace Empresa {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Empresa;V1.0.0.0;component/cad-funcionariowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Empresa;component/cad-funcionariowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Cad-FuncionarioWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
