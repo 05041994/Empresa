@@ -62,7 +62,7 @@ namespace Empresa {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.17.0")]
         public static void Main() {
-            Empresa.App app = new Empresa.App();
+            VEmpresa.App app = new VEmpresa.App();
             app.InitializeComponent();
             app.Run();
         }

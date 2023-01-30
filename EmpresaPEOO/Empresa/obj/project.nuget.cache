@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oUZDpV7cOKIg630ELlbt15zn5LYJ+MdbpKt8LO7+dAdSKg33oOZmsS8ZPuAf6CH4rGaDeaI2q7176657Gjn2jA==",
+  "dgSpecHash": "gUJ2MEssSDDDxj61p7RAKOjZYBvtZmVKxEqs8DNITEFiHZFELUPh2qvk3ihn5OHzOX+Q1kC/z8kpwuZBMhLMxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\20211011110009\\Source\\Repos\\05041994\\Empresa\\EmpresaPEOO\\Empresa\\Empresa.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\20211011110009\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

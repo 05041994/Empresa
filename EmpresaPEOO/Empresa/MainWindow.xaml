@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Empresa"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="400">
     <Grid>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Empresa..." Click="Empresa_Click" />
+                <MenuItem Header="Setor..." Click="Setor_Click" />
+                <MenuItem Header="Funcionario.." Click="Funcionario_Click"/>
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Cadastrar setor..." Click="Cadastrarsetor_Click" />
+                <MenuItem Header="Cadastrar funcionario..." Click="Cadastrarfuncionario_Click" />
+                <MenuItem Header="List de setores..." Click="Listdesetores_Click" />
+                <MenuItem Header="List de funcionarios..." Click="Listdefuncionarios_Click"/>
 
+            </MenuItem>
+        </Menu>
+        <Button Visibility="Hidden" Click="Empresa_Click" Content="Cadastrar Empresa" HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Setor_Click" Content="Cadastrar Setor" HorizontalAlignment="Left" Margin="23,44,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Funcionario_Click" Content="Cadastrar Funcionario" HorizontalAlignment="Left" Margin="23,64,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Cadastrarsetor_Click" Content="Cadastrar setor em empresa" HorizontalAlignment="Left" Margin="23,69,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Cadastrarfuncionario_Click" Content="Cadastrar funcionario em setor" HorizontalAlignment="Left" Margin="23,94,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Listdesetores_Click" Content="List de Setores" HorizontalAlignment="Left" Margin="23,94,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Listdefuncionarios_Click" Content="List de funcionarios" HorizontalAlignment="Left" Margin="23,94,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

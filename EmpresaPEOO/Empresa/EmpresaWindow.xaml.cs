@@ -24,7 +24,7 @@ namespace Empresa
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-            Empresa p = new Empresa();
+            VEmpresa p = new VEmpresa();
             p.id = int.Parse(Idtxt.Text);
             p.nome = Nometxt.Text;
             p.segmento = Segmentotxt.Text;
@@ -44,7 +44,7 @@ namespace Empresa
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
 
-            Empresa p = new Empresa();
+            VEmpresa p = new VEmpresa();
             p.id = int.Parse(Idtxt.Text);
             p.nome = Nometxt.Text;
             p.segmento = Segmentotxt.Text;
@@ -57,7 +57,7 @@ namespace Empresa
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-            Empresa p = new Empresa();
+            VEmpresa p = new VEmpresa();
             p.id = int.Parse(Idtxt.Text);
 
             NEmpresa.Excluir(p);
@@ -69,7 +69,7 @@ namespace Empresa
         {
             if (listEmpresa.SelectedItem != null)
             {
-                Empresa obj = (Empresa)listEmpresa.SelectedItem;
+                VEmpresa obj = (VEmpresa)listEmpresa.SelectedItem;
 
                 Idtxt.Text = obj.id.ToString();
                 Nometxt.Text = obj.nome;

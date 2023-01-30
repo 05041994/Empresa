@@ -21,5 +21,57 @@ namespace Empresa
         {
             InitializeComponent();
         }
+
+        private void InserirClick(object sender, RoutedEventArgs e)
+        {
+            Funcionario p = new Funcionario();
+            p.id = int.Parse(Idtxt.Text);
+            p.nome = Nometxt.Text;
+            p.email = Emailtxt.Text;
+
+            NFuncionario.Inserir(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            listFuncionarios.ItemsSource = null;
+            listFuncionarios.ItemsSource = NFuncionario.Listar();
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+            Funcionario p = new Funcionario();
+            p.id = int.Parse(Idtxt.Text);
+            p.nome = Nometxt.Text;
+            p.email = Emailtxt.Text;
+
+            NFuncionario.Atualizar(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void ExcluirClick(object sender, RoutedEventArgs e)
+        {
+            Funcionario p = new Funcionario();
+            p.id = int.Parse(Idtxt.Text);
+
+            NFuncionario.Excluir(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void listFuncionarios_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listFuncionarios.SelectedItem != null)
+            {
+                Funcionario obj = (Funcionario)listFuncionarios.SelectedItem;
+
+                Idtxt.Text = obj.id.ToString();
+                Nometxt.Text = obj.nome;
+                Emailtxt.Text = obj.email;
+            }
+        }
     }
 }

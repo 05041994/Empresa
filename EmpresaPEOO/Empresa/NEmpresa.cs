@@ -10,28 +10,28 @@ namespace Empresa
 {
     static class NEmpresa
     {
-        private static List<Empresa> empresas = new List<Empresa>();
-        public static void Inserir(Empresa t)
+        private static List<VEmpresa> empresas = new List<VEmpresa>();
+        public static void Inserir(VEmpresa t)
         {
             Abrir();
             // Procurar o maior Id
             int id = 0;
-            foreach (Empresa obj in empresas)
+            foreach (VEmpresa obj in empresas)
                 if (obj.id > id) id = obj.id;
             t.id = id + 1;
             empresas.Add(t);
             Salvar();
         }
-        public static List<Empresa> Listar()
+        public static List<VEmpresa> Listar()
         {
             Abrir();
             return empresas;
         }
-        public static void Atualizar(Empresa t)
+        public static void Atualizar(VEmpresa t)
         {
             Abrir();
             // Percorrer a lista de Empresa procurando o id informado (t.Id)
-            foreach (Empresa obj in empresas)
+            foreach (VEmpresa obj in empresas)
                 if (obj.id == t.id)
                 {
                     obj.nome = t.nome;
@@ -40,12 +40,12 @@ namespace Empresa
                 }
             Salvar();
         }
-        public static void Excluir(Empresa t)
+        public static void Excluir(VEmpresa t)
         {
             Abrir();
             // Percorrer a lista de Empresa procurando o id informado (t.Id)
-            Empresa x = null;
-            foreach (Empresa obj in empresas)
+            VEmpresa x = null;
+            foreach (VEmpresa obj in empresas)
                 if (obj.id == t.id) x = obj;
             if (x != null) empresas.Remove(x);
             Salvar();
@@ -56,15 +56,15 @@ namespace Empresa
             try
             {
                 // Objeto que serializa (transforma) uma lista de empresas em um texto em XML
-                XmlSerializer xml = new XmlSerializer(typeof(List<Empresa>));
+                XmlSerializer xml = new XmlSerializer(typeof(List<VEmpresa>));
                 // Objeto que abre um texto em um arquivo
                 f = new StreamReader("./empresas.xml");
                 // Chama a operação de desserialização informando a origem do texto XML
-                empresas = (List<Empresa>)xml.Deserialize(f);
+                empresas = (List<VEmpresa>)xml.Deserialize(f);
             }
             catch
             {
-                empresas = new List<Empresa>();
+                empresas = new List<VEmpresa>();
             }
             // Fecha o arquivo
             if (f != null) f.Close();
@@ -72,7 +72,7 @@ namespace Empresa
         public static void Salvar()
         {
             // Objeto que serializa (transforma) uma lista de empresas em um texto em XML
-            XmlSerializer xml = new XmlSerializer(typeof(List<Empresa>));
+            XmlSerializer xml = new XmlSerializer(typeof(List<VEmpresa>));
             // Objeto que grava um texto em um arquivo
             StreamWriter f = new StreamWriter("./empresas.xml", false);
             // Chama a operação de serialização informando o destino do texto XML
