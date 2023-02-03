@@ -39,6 +39,7 @@ namespace Empresa
                     obj.nome = p.nome;
                     obj.id = p.id;
                     obj.atuação = p.atuação;
+                    obj.idEmpresa = p.idEmpresa;
                 }
             Salvar();
         }
@@ -87,7 +88,7 @@ namespace Empresa
             p.idEmpresa = t.id;
             Atualizar(p);
         }
-        public static List<Setor> Listar(Setor p)
+        public static List<Setor> Listar(VEmpresa p)
         {
             Abrir();
 

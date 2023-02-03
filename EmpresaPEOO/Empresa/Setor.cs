@@ -13,7 +13,7 @@ namespace Empresa
 
         public override string ToString()
         {
-            return $"id setor : {id} - Nome: {nome} - Atuação: {atuação} - Id da empresa : {idEmpresa} ";
+            return $"id setor: {id} - Nome: {nome} - Atuação: {atuação} - Id da empresa: {idEmpresa} ";
         }
     }
 }

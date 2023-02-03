@@ -13,7 +13,7 @@ namespace Empresa
 
         public override string ToString()
         {
-            return $"id do funcionario {id} - Nome {nome} - Email {email}- Setor onde ele trabalha {idSetor}";
+            return $"id:{id} - Nome: {nome} - Email: {email} - Setor onde ele trabalha: {idSetor}";
         }
     }
 }

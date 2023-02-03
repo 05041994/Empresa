@@ -4,7 +4,6 @@ C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\bin\De
 C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\bin\Debug\netcoreapp3.1\Empresa.runtimeconfig.dev.json
 C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\bin\Debug\netcoreapp3.1\Empresa.dll
 C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\bin\Debug\netcoreapp3.1\Empresa.pdb
-C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Empresa.csproj.AssemblyReference.cache
 C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Cad-FuncionarioWindow.g.cs
 C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\Cad-SetorWindow.g.cs
 C:\Users\20211011110009\Source\Repos\05041994\Empresa\EmpresaPEOO\Empresa\obj\Debug\netcoreapp3.1\EmpresaWindow.g.cs

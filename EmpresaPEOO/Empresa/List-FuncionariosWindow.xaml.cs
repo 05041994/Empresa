@@ -20,6 +20,19 @@ namespace Empresa
         public List_FuncionariosWindow()
         {
             InitializeComponent();
+            listSetores.ItemsSource = NSetor.Listar();
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            if (listSetores.SelectedItem != null)
+            {
+                Setor t = (Setor)listSetores.SelectedItem;
+                listFuncionarios.ItemsSource = null;
+                listFuncionarios.ItemsSource = NFuncionario.Listar(t);
+            }
+            else
+                MessageBox.Show("É preciso selecionar um setor");
         }
     }
 }

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfFuncionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Funcionario>
-    <id>2</id>
-    <nome>Iris</nome>
-    <email>iris@email</email>
-    <idSetor>0</idSetor>
-  </Funcionario>
-  <Funcionario>
     <id>3</id>
     <nome>Gabriel</nome>
     <email>Gabriel@email</email>
+    <idSetor>2</idSetor>
+  </Funcionario>
+  <Funcionario>
+    <id>4</id>
+    <nome>Iriss</nome>
+    <email>iris@email</email>
     <idSetor>0</idSetor>
   </Funcionario>
 </ArrayOfFuncionario>
