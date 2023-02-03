@@ -5,4 +5,9 @@
     <nome>Visa</nome>
     <segmento>Credito </segmento>
   </VEmpresa>
+  <VEmpresa>
+    <id>2</id>
+    <nome>OLX</nome>
+    <segmento>Vendas</segmento>
+  </VEmpresa>
 </ArrayOfVEmpresa>

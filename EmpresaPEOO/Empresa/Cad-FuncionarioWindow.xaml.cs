@@ -37,7 +37,7 @@ namespace Empresa
             {
                 Setor a = (Setor)listSetores.SelectedItem;
                 Funcionario t = (Funcionario)listFuncionarios.SelectedItem;
-                NFuncionario.Cadastrar(a, t);
+                NFuncionario.Cadastrar(t, a);
                 ListarClick(sender, e);
             }
             else

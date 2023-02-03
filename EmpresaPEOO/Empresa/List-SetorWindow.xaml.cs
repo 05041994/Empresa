@@ -21,19 +21,6 @@ namespace Empresa
         public List_SetorWindow()
         {
             InitializeComponent();
-            listEmpresas.ItemsSource = NEmpresa.Listar();
-        }
-
-        private void ListarClick(object sender, RoutedEventArgs e)
-        {
-            if (listEmpresas.SelectedItem != null)
-            {
-                VEmpresa t = (VEmpresa)listEmpresas.SelectedItem;
-                listSetores.ItemsSource = null;
-                listSetores.ItemsSource = NSetor.Listar(t);
-            }
-            else
-                MessageBox.Show("É preciso selecionar uma turma");
         }
     }
 }

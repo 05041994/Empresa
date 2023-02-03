@@ -82,18 +82,18 @@ namespace Empresa
 
             f.Close();
         }
-        public static void Cadastrar(Setor a, VEmpresa t)
+        public static void Cadastrar(Setor p, VEmpresa t)
         {
-            a.idEmpresa = t.id;
-            Atualizar(a);
+            p.idEmpresa = t.id;
+            Atualizar(p);
         }
-        public static List<Setor> Listar(Setor t)
+        public static List<Setor> Listar(Setor p)
         {
             Abrir();
 
             List<Setor> diario = new List<Setor>();
             foreach (Setor obj in setores)
-                if (obj.id == t.id) diario.Add(obj);
+                if (obj.id == p.id) diario.Add(obj);
             return diario;
         }
 
