@@ -21,5 +21,29 @@ namespace Empresa
         {
             InitializeComponent();
         }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            listSetores.ItemsSource = null;
+            listSetores.ItemsSource = NSetor.Listar();
+            listFuncionarios.ItemsSource = null;
+            listFuncionarios.ItemsSource = NFuncionario.Listar();
+        }
+
+        private void CadastrarClick(object sender, RoutedEventArgs e)
+        {
+            if (listFuncionarios.SelectedItem != null &&
+               listSetores.SelectedItem != null)
+            {
+                Setor a = (Setor)listSetores.SelectedItem;
+                Funcionario t = (Funcionario)listFuncionarios.SelectedItem;
+                NFuncionario.Cadastrar(a, t);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um Setor e uma Empresa");
+            }
+        }
     }
 }

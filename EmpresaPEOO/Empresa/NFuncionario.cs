@@ -81,7 +81,7 @@ namespace Empresa
 
             f.Close();
         }
-        public static void Cadastrar(Funcionario a, VEmpresa t)
+        public static void Cadastrar(Funcionario a, Setor t)
         {
             a.idSetor = t.id;
             Atualizar(a);

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Empresa
 {
-    class Setor
+    public class Setor
     {
         public int id { get; set; }
         public string atuação { get; set; }
