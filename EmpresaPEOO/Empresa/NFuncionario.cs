@@ -93,7 +93,7 @@ namespace Empresa
 
             List<Funcionario> diario = new List<Funcionario>();
             foreach (Funcionario obj in Funcionarios)
-                if (obj.id == t.id) diario.Add(obj);
+                if (obj.idSetor == t.id) diario.Add(obj);
             return diario;
         }
     }

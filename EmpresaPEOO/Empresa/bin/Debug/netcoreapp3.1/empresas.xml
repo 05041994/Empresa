@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfVEmpresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VEmpresa>
-    <id>1</id>
-    <nome>Visa</nome>
-    <segmento>Credito </segmento>
-  </VEmpresa>
-  <VEmpresa>
-    <id>2</id>
-    <nome>OLX</nome>
-    <segmento>Vendas</segmento>
+    <id>3</id>
+    <nome>Inter</nome>
+    <segmento>Credito</segmento>
   </VEmpresa>
 </ArrayOfVEmpresa>

@@ -94,7 +94,7 @@ namespace Empresa
 
             List<Setor> diario = new List<Setor>();
             foreach (Setor obj in setores)
-                if (obj.id == p.id) diario.Add(obj);
+                if (obj.idEmpresa == p.id) diario.Add(obj);
             return diario;
         }
 

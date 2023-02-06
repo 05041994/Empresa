@@ -22,7 +22,7 @@
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="107,74,0,0" VerticalAlignment="Top"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Center" Margin="0,74,0,0" VerticalAlignment="Top"/>
 
-        <ListBox Name="listSetores" Margin="10,104,10,10"/>
+        <ListBox Name="listSetores" Margin="10,104,10,10" SelectionChanged="listSetores_SelectionChanged"/>
 
     </Grid>
 </Window>

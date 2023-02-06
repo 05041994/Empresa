@@ -7,9 +7,9 @@
     <idSetor>2</idSetor>
   </Funcionario>
   <Funcionario>
-    <id>4</id>
-    <nome>Iriss</nome>
-    <email>iris@email</email>
-    <idSetor>0</idSetor>
+    <id>5</id>
+    <nome>xico</nome>
+    <email>xico.com</email>
+    <idSetor>4</idSetor>
   </Funcionario>
 </ArrayOfFuncionario>

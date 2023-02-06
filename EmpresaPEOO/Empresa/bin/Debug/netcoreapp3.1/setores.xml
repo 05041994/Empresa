@@ -7,9 +7,15 @@
     <idEmpresa>2</idEmpresa>
   </Setor>
   <Setor>
-    <id>2</id>
-    <atuação>Seguração</atuação>
-    <nome>xxz</nome>
-    <idEmpresa>2</idEmpresa>
+    <id>3</id>
+    <atuação>Vendas</atuação>
+    <nome>Vendas</nome>
+    <idEmpresa>1</idEmpresa>
+  </Setor>
+  <Setor>
+    <id>4</id>
+    <atuação>Vendas</atuação>
+    <nome>Vendas</nome>
+    <idEmpresa>3</idEmpresa>
   </Setor>
 </ArrayOfSetor>
